@@ -1,6 +1,6 @@
 [back to summary](https://github.com/ByJC/angular2-step-by-step)
 
-# 1-step : Angular 2 - How to start ?  
+# 1 : Angular 2 - How to start ?  
 
 First of All, Even if angular 2 is written in TypeScript, you don't have to use it to develop angular 2 applications. The Framework also work with ES5, ES6 and Dart.
 
