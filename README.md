@@ -8,13 +8,19 @@ First of All, Even if angular 2 is written in TypeScript, you don't have to use 
 
 ES5 is the JavaScript you know and use in the current browser. It is what it is and does not require a build step to transform it into something that will run in today's browsers
 
-ES6 is the next iteration of JavaScript, but it does not run in today's browsers. There are quite a few transpilers that will export ES5 for running in browsers (like [Babel](https://babeljs.io/) ). It is still an dynamic (read: untyped) language.
+ES6 is the next iteration of JavaScript, but it does not run in today's browsers. There are quite a few transpilers that will export ES5 for running in browsers (I recommend [Babel](https://babeljs.io/) ). It is still an dynamic (read: untyped) language.
 
 TypeScript provides an optional typing system while pulling in features from future versions of JavaScript (ES6 and ES7).
 
 Dart is an experimental language created several years ago by google but I'm not so confident to talk about it.
 
-I decided to choose TypeScript for this project because I think there are good things in it like Types, Annotations, a better documentation (for now) and because it seems that the learning curves from ES6 is quite good.
+I warmly recommend to choose TypeScript for this project because I think there are good things in it like :
+    * Optional Types / class Types,
+    * Interface,
+    * Annotations,
+    * A better documentation (for now),
+    * A good learning curves when you come from ES6,
+    * More human readable.
 
 ## Example of components for each languages
 
@@ -31,7 +37,6 @@ AppComponent.annotations = [
   })
 ];
 ```
-
 
 ES6 :
 ```js
@@ -55,6 +60,7 @@ TypeScript :
 })
 export class AppComponent { }
 ```
+
 
 ## Next Step
 
