@@ -15,12 +15,12 @@ TypeScript provides an optional typing system while pulling in features from fut
 Dart is an experimental language created several years ago by google but I'm not so confident to talk about it.
 
 I warmly recommend to choose TypeScript for this project because I think there are good things in it like :
-    * Optional Types / class Types,
-    * Interface,
-    * Annotations,
-    * A better documentation (for now),
-    * A good learning curves when you come from ES6,
-    * More human readable.
+* Optional Types / class Types,
+* Interface,
+* Annotations,
+* A better documentation (for now),
+* A good learning curves when you come from ES6,
+* More human readable.
 
 ## Example of components for each languages
 
@@ -60,7 +60,6 @@ TypeScript :
 })
 export class AppComponent { }
 ```
-
 
 ## Next Step
 
