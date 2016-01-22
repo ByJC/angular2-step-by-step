@@ -24,6 +24,9 @@ I warmly recommend to choose TypeScript for this project because I think there a
 
 ## Example of components for each languages
 
+In Angular, you can display your data with components. In fact, the data which are contains in the class of your component are available in the template.
+In the following examples, we see a simple version of a component named 'first-step'.
+
 ES5 :
 ```js
 var AppComponent = function () {
@@ -32,7 +35,7 @@ var AppComponent = function () {
 
 AppComponent.annotations = [
   new ng.Component({
-    selector: 'my-app',
+    selector: 'first-step',
     template: '<h1>First Step with angular2-step-by-step</h1>'
   })
 ];
@@ -43,7 +46,7 @@ ES6 :
 (function(app) {
   app.AppComponent =
     ng.core.Component({
-      selector: 'my-app',
+      selector: 'first-step',
       template: '<h1>First Step with angular2-step-by-step</h1>'
     })
     .Class({
@@ -55,7 +58,7 @@ ES6 :
 TypeScript :
 ```js
 @Component({
-    selector: 'my-app',
+    selector: 'first-step',
     template: '<h1>First Step with angular2-step-by-step</h1>'
 })
 export class AppComponent { }
