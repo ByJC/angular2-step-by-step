@@ -7,3 +7,7 @@ But for thoses who don't have that knowledge, it could be useful to learn it ste
 I want to create a full-feature Angular2 project/boilerplate starting totally from scratch and little by little, add more packages and configuration (explained in details)
 
 Each step will have a branch which describe how to do it.
+
+## Are you ready ?
+- [1-Introduction-to-angular2](https://github.com/byjc/angular2-step-by-step/tree/1-step)
+- stay tuned
