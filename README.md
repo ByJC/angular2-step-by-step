@@ -10,4 +10,5 @@ Each step will have a branch which describe how to do it.
 
 ## Are you ready ?
 - [1-Introduction-to-angular2](https://github.com/byjc/angular2-step-by-step/tree/1-step)
+- [2-Let's get started with angular2 TypeScript](https://github.com/byjc/angular2-step-by-step/tree/2-step)
 - stay tuned
